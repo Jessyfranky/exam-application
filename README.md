@@ -34,35 +34,46 @@ Tech Stack
   - Node.js, Express, MongoDB (Mongoose)  
   - JWT for authentication, bcryptjs for password hashing
  
-  ## Installation and Setup
+  Installation and Setup
 
-### Backend
+ Backend
 
-1. **Navigate to the backend folder:**
+1. Navigate to the backend folder:**
    ```bash
    cd exam-app-backend
 Install dependencies:
-
+bash
+Copy
+Edit
 npm install
 Create a .env file in the backend root with:
-
+env
+Copy
+Edit
 MONGO_URI=mongodb://127.0.0.1:27017/examdb
 JWT_SECRET=your_secret_key
 PORT=5000
-
-
 Start the backend server:
-
+bash
+Copy
+Edit
 npm run dev
 The backend will run on http://localhost:5000.
-
 Frontend
 Navigate to the frontend folder:
+bash
+Copy
+Edit
 cd exam-app-frontend
 Install dependencies:
+bash
+Copy
+Edit
 npm install
 Start the frontend application:
-
+bash
+Copy
+Edit
 npm start
 The frontend will open in your browser at http://localhost:3000.
 Usage
@@ -98,4 +109,3 @@ Feel free to fork the repository and submit pull requests if you have suggestion
 
 License
 This project is licensed under the MIT License.
-
